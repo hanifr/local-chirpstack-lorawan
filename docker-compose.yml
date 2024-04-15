@@ -16,9 +16,6 @@ services:
       - MQTT_BROKER_HOST=mosquitto
       - REDIS_HOST=redis
       - POSTGRESQL_HOST=postgres
-      - VIRTUAL_HOST=xxx.xxx.xxx 
-      - LETSENCRYPT_HOST=xxx.xxx.xxx
-      - LETSENCRYPT_EMAIL=xxx@gmail.com
     ports:
       - 8080:8080
 
